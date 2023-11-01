@@ -99,7 +99,7 @@ function App() {
       </div>
       <Timer timerLabel={timerLabel} timeLeft={timeLeft} />
       <ControlButtons running={timerRunning} onToggle={toggleTimer} onReset={handleReset} />
-      <audio id="beep" ref={audioRef} src="./alarm.mp3" />
+      <audio id="beep" ref={audioRef} src="./components/alarm.mp3" />
       <Footer />
     </div>
   );
